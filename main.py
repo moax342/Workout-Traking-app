@@ -2,8 +2,9 @@ import requests
 import datetime as dt
 APP_ID ="your id"
 API_KEY="your key"
+ACESS_KEY="Your key"
 end_point ="https://trackapi.nutritionix.com/v2/natural/exercise"
-SHEET_ENDPOINT= "https://api.sheety.co/992c979c61e12759d7b9b39c41edb933/myWorkouts/sheet1"
+SHEET_ENDPOINT= f"https://api.sheety.co/{ACESS_KEY}/myWorkouts/sheet1"
 TOKEN= "Bearer your token"
 header ={
     'x-app-id':APP_ID,
