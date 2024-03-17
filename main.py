@@ -1,10 +1,10 @@
 import requests
 import datetime as dt
-APP_ID ="65c291d3"
-API_KEY="1dcddc7322f5e9ad91dc3e8b75e46ab9"
+APP_ID ="your id"
+API_KEY="your key"
 end_point ="https://trackapi.nutritionix.com/v2/natural/exercise"
 SHEET_ENDPOINT= "https://api.sheety.co/992c979c61e12759d7b9b39c41edb933/myWorkouts/sheet1"
-TOKEN= "Bearer knasncjkdbsvisbvoncnojbsdvosovknodsdvnnsovknonsdvn"
+TOKEN= "Bearer your token"
 header ={
     'x-app-id':APP_ID,
     "x-app-key":API_KEY
